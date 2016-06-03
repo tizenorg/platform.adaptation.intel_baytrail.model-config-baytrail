@@ -9,6 +9,7 @@ License:	Apache-2.0
 BuildArch:	noarch
 Source0:	%{name}-%{version}.tar.gz
 Source1:	model-config.manifest
+BuildRequires:	/bin/sed
 
 %description
 Model configuration data package
@@ -18,6 +19,8 @@ Model configuration data package
 cp %{SOURCE1} .
 
 %build
+sed -e 's/@@PROFILE@@/%{profile}/g' \
+	    model-config.xml.in > model-config.xml
 
 %install
 rm -rf %{buildroot}

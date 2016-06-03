@@ -99,7 +99,7 @@
 		<key name="tizen.org/feature/platform.native.osp_compatible" type="bool">false</key>
 		<key name="tizen.org/feature/platform.version" type="string">3.0</key>
 		<key name="tizen.org/feature/platform.web.api.version" type="string">3.0</key>
-		<key name="tizen.org/feature/profile" type="string">ivi</key>
+		<key name="tizen.org/feature/profile" type="string">@@PROFILE@@</key>
 		<key name="tizen.org/feature/screen.auto_rotation" type="bool">false</key>
 		<key name="tizen.org/feature/screen.bpp" type="int">32</key>
 		<key name="tizen.org/feature/screen.coordinate_system.size.large" type="bool">true</key>
