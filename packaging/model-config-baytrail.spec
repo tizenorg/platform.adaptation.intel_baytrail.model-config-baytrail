@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 Name:		model-config-baytrail
-Summary:	A Model configuration
+Summary:	A Model configuration for Bay Tail-I
 Version:	0.0.1
 Release:	0
 Group:		System/Configuration
@@ -12,7 +12,7 @@ Source1:	model-config.manifest
 BuildRequires:	/bin/sed
 
 %description
-Model configuration data package
+Model configuration data package for generic Bay Trail-I board.
 
 %prep
 %setup -q -n %{name}-%{version}

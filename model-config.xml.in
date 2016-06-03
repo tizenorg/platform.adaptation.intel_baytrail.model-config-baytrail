@@ -187,7 +187,7 @@
 		<key name="tizen.org/system/model_name" type="string">Bay Trail-I</key>
 		<key name="tizen.org/system/platform.communication_processor" type="string">N/A</key>
 		<key name="tizen.org/system/platform.name" type="string">Tizen</key>
-		<key name="tizen.org/system/platform.processor" type="string">E3815</key>
+		<key name="tizen.org/system/platform.processor" type="string">Bay Trail-I</key>
 		<key name="tizen.org/system/sound.media.volume.resolution.max" type="int">15</key>
 		<key name="tizen.org/system/sound.notification.volume.resolution.max" type="int">15</key>
 		<key name="tizen.org/system/sound.ringtone.volume.resolution.max" type="int">15</key>
